@@ -1,0 +1,101 @@
+https://miro.medium.com/max/1134/1*WMiNIQ9THariDSJw47uU1w.png
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+List
+    lists are ordered
+    lists are mutable
+    list elements do not need to be unique
+    lit elements can be of different data types
+
+List functions and time complexity
+
+List comprehension 
+newlist = [expression for item in iterable if condition == True]
+
+Array 
+    ordered, mutable, square brackets, non-unique
+    python array module requires elements to be of same type
+    numpy array supports different data types
+
+Array/List functions and time complexity
+myList.append(newElement)
+myList.clear()
+myList.copy()
+myList.count(elementValue)
+myList.extend([element_1, element_2])
+myList.index(elementValue)
+myList.insert(pos, elmnt)
+myList.pop(pos)
+myList.remove(elmnt)
+myList.reverse()
+myList.sort(reverse=True|False, key=myFunc)
+
+# A function that returns the 'year' value:
+def myFunc(e):
+  return e['year']
+
+cars = [
+  {'car': 'Ford', 'year': 2005},
+  {'car': 'Mitsubishi', 'year': 2000},
+  {'car': 'BMW', 'year': 2019},
+  {'car': 'VW', 'year': 2011}
+]
+
+cars.sort(key=myFunc)
+[{'car': 'Mitsubishi', 'year': 2000}, {'car': 'Ford', 'year': 2005}, {'car': 'VW', 'year': 2011}, {'car': 'BMW', 'year': 2019}]
+
+Sets 
+    unordered, unchangable, do not allow duplicate values, allow different data types
+add()	Adds an element to the set
+clear()	Removes all the elements from the set
+copy()	Returns a copy of the set
+difference()	Returns a set containing the difference between two or more sets
+difference_update()	Removes the items in this set that are also included in another, specified set
+discard()	Remove the specified item
+intersection()	Returns a set, that is the intersection of two or more sets
+intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+isdisjoint()	Returns whether two sets have a intersection or not
+issubset()	Returns whether another set contains this set or not
+issuperset()	Returns whether this set contains another set or not
+pop()	Removes an element from the set
+remove()	Removes the specified element
+symmetric_difference()	Returns a set with the symmetric differences of two sets
+symmetric_difference_update()	inserts the symmetric differences from this set and another
+union()	Return a set containing the union of sets
+update()	Update the set with another set, or any other iterable
+
+Tuple
+used to store multiple items in a single variable
+collection which is ordered and unchangeable
+allow duplicates, can contain different data types 
+
+Arrays need to be declared. Lists don't, since they are built into Python. In the examples above, you saw that lists are created by simply enclosing a sequence of elements into square brackets. Creating an array, on the other hand, requires a specific function from either the array module (i.e., array.array()) or NumPy package (i.e., numpy.array()). Because of this, lists are used more often than arrays.
+Arrays can store data very compactly and are more efficient for storing large amounts of data.
+Arrays are great for numerical operations; lists cannot directly handle math operations. For example, you can divide each element of an array by the same number with just one line of code. If you try the same with a list, you'll get an error.
+
+List
+Sort O(nlogn)
+Search O(logn) if sorted and O(n) if not sorted
+Insert O(n) has to push elmnts back 
+delete O(n) has to push elmnts forward 
+Access O(1)
+Append O(1)
+Get len O(1)
+
+Dictionary
+Find k in d O(1) O(n) depends on collisions of hash function
+Get item O(1) O(n) depends on collisions
+Set item O(1) O(n)
+Delete item O(1) O(n)
+
+Seaching for a value is faster in list then a Dictionary
+
+
+
+
+
+

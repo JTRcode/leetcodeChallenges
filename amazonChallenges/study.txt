@@ -1,0 +1,60 @@
+algorithms runtime, space complexity
+data structures (heaps), operation times, and memory 
+recursion memory
+pages/ swap table
+allocating memory
+concurrency
+graph partitioning
+dynamic programming
+design
+
+
+Design
+Data structures
+algorithms 
+basic coding
+behavorial quesitons
+object oriented programing
+
+amortized cost
+
+Design
+    -
+
+Data Structures
+    - Non primitive data structures
+        - Array
+        - List
+        - Linked List
+        - Stack 
+        - Queue
+        - Graph 
+            - Adjancy list
+            - Matrix
+        - Tree 
+        - Heap 
+        - Hashing/ Dictionary
+        - Set
+        - Tuple
+    - Sort, search, insert, delete. Best, average, worst
+
+Algorithms
+    - Searching algorithms
+        - Binary search
+    - BFS/DFS
+    - Quicksort
+    - Graph path search algorithms
+        -
+    - Dynamic programming
+    - Recursion 
+        - Understandin space complexity
+    - Huffman encoding
+    - Edmond Karp (Max flow)
+    - Min Cut
+    - pages/ swap table
+    - concurrency
+
+
+For the coding question, it will be something that you can solve and discuss the solution within 30 minutes. Once you think you have finished coding, proactively let the interviewer know that you will dry run the solution. Ask yourself if you have covered all the corner cases. It will be an added bonus if you can talk about unit tests and what are some of the unit tests that you’d write.
+medium involving sets.
+s LRU/LFU cache, min stack, etc.
